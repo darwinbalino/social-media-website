@@ -4,6 +4,7 @@ import { getPosts } from "./actions/posts";
 import Form from "./components/Form/Form";
 import Header from "./components/Header";
 import Posts from "./components/Posts/Posts";
+import Sidebar from "./components/Sidebar";
 
 const App = () => {
   const [currentId, setCurrentId] = useState(0);
@@ -16,6 +17,7 @@ const App = () => {
   return (
     <div className="h-screen bg-gray-100">
       <Header />
+      <Sidebar />
       <Form setCurrentId={setCurrentId} currentId={currentId} />
       <Posts setCurrentId={setCurrentId} />
     </div>
