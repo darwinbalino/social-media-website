@@ -1,6 +1,6 @@
 import React from "react";
 import InputBox from "./InputBox";
-import Posts from "./Posts/Posts";
+import Posts from "./Posts";
 
 const Feed = ({setCurrentId, currentId}) => {
   return (

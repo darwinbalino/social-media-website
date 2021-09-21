@@ -55,7 +55,7 @@ const InputBox = ({ currentId, setCurrentId }) => {
             />
           </div>
         </div>
-        <div className="cursor-pointer pl-8">
+        <div>
          <FileBase
           type="file"
           multiple={false}
@@ -72,20 +72,6 @@ const InputBox = ({ currentId, setCurrentId }) => {
           <p className="text-sm">Submit</p>
         </button>
         </div>
-        {/* <div className="flex p-3 border-t justify-evenly">
-          <div className="inputIcon cursor-default flex items-center">
-            <VideoCameraIcon className="text-red-400 h-7" />
-            <p className="text-xs sm:text-sm xl:text-base">Live Video</p>
-          </div>
-          <div className="inputIcon flex items-center">
-            <CameraIcon className="text-blue-400 h-7" />
-            <p className="text-xs sm:text-sm xl:text-base">Photo/Video</p>
-          </div>
-          <div className="inputIcon cursor-default flex items-center">
-            <EmojiHappyIcon className="text-yellow-300 h-7" />
-            <p className="text-xs sm:text-sm xl:text-base">Feeling</p>
-          </div>
-        </div> */}
       </div>
     </form>
   );
