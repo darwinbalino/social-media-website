@@ -21,9 +21,9 @@ const Header = () => {
         <div className="hidden lg:flex items-center p-2 ml-5 bg-gray-100 rounded-full">
           <SearchIcon className="h-4 text-gray-600" />
           <input
-            className="items-center flex-shrink text-xs ml-2 text-gray-600 placeholder-gray-500 bg-transparent outline-none inline-flex"
+            className="items-center flex-shrink text-xs ml-2 placeholder-gray-400 bg-transparent outline-none inline-flex"
             type="text"
-            placeholder="Search Facebook"
+            placeholder="Search VeganZone"
           />
         </div>
       </div>

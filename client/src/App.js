@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { getPosts } from "./actions/posts";
+import Feed from "./components/Feed";
 import Form from "./components/Form/Form";
 import Header from "./components/Header";
-import InputBox from "./components/InputBox";
-import Posts from "./components/Posts/Posts";
 import Sidebar from "./components/Sidebar";
+import Widgets from "./components/Widgets";
 
 const App = () => {
   const [currentId, setCurrentId] = useState(0);
@@ -20,10 +20,10 @@ const App = () => {
       <Header />
       <main className="flex">
         <Sidebar />
-        <InputBox />
+        <Feed setCurrentId={setCurrentId} currentId={currentId} />
+        <Widgets />
       </main>
       <Form setCurrentId={setCurrentId} currentId={currentId} />
-      <Posts setCurrentId={setCurrentId} />
     </div>
   );
 };
