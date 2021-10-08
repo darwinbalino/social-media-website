@@ -5,5 +5,5 @@
 - Database: [MongoDB](https://www.mongodb.com/)
 - ORM: [Mongoose](https://mongoosejs.com/)
 - Deployment: [Netlify](https://www.netlify.com/) + [Heroku](https://www.heroku.com/)
-- Styling: [Tailwind CSS](https://tailwindcss.com/}
+- Styling: [Tailwind CSS](https://tailwindcss.com/)
 
